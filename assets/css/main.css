@@ -1461,7 +1461,9 @@ background-color: var(--accent-color);
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio-details .swiper-wrapper {
