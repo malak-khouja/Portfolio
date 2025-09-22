@@ -80,96 +80,122 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+<section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container" data-aos="fade-up">
+  <div class="container" data-aos="fade-up">
 
-        <div class="portfolio-details-slider swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-              <img src="assets\img\portfolio\dashbord1.png" alt="">
-            </div>
-            <div class="swiper-slide">
-              <img src="assets\img\portfolio\dashbord2.png" alt="">
-            </div>
-            <div class="swiper-slide">
-              <img src="assets\img\portfolio\analysis dashboard.png" alt="">
-            </div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
+    <!-- Swiper slider for screenshots -->
+    <div class="portfolio-details-slider swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "navigation": {
+            "nextEl": ".swiper-button-next",
+            "prevEl": ".swiper-button-prev"
+          },
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper align-items-center">
+
+        <div class="swiper-slide">
+          <img src="assets\img\portfolio\User Management System 1.png" alt="User Management System Screenshot 1">
         </div>
 
-        <div class="row justify-content-between gy-4 mt-4">
-          <div class="col-lg-8" data-aos="fade-up">
-            <div class="portfolio-description">
-              <h2>Data Analysis Dashboard Project</h2>
-              <p>
-                The Data Analysis Dashboard Project is designed to provide users with a comprehensive and interactive platform to visualize and analyze data. By integrating various data processing and visualization techniques, the dashboard allows users to gain valuable insights from datasets, making complex data accessible and understandable.
-              </p>
-              <p>
-                <strong>Key Features:</strong>
-                <ul>
-                  <li><strong>Data Import & Integration:</strong> The dashboard can import datasets from different sources, such as CSV files, databases, or APIs, ensuring flexibility in data integration.</li>
-                  <li><strong>Interactive Visualizations:</strong> The dashboard offers various data visualizations like bar charts, line graphs, pie charts, and heatmaps, which update dynamically based on user input and selection.</li>
-                  <li><strong>Data Filtering & Exploration:</strong> Users can filter the data by different criteria (e.g., date ranges, categories) to drill down into specific subsets of the data.</li>
-                  <li><strong>Statistical Analysis Tools:</strong> Built-in tools for statistical assessments such as mean, median, standard deviation, and correlation coefficient.</li>
-                  <li><strong>User-Friendly Interface:</strong> An intuitive design ensures that even non-technical users can interact with and interpret the data easily.</li>
-                  <li><strong>Export & Reporting:</strong> Options to export visualizations and data into formats like CSV or PDF for easy sharing and reporting.</li>
-                  <li><strong>Real-Time Data Processing:</strong> Supports real-time data updates, allowing users to monitor live data as it is being collected.</li>
-                </ul>
-              </p>
-              <p>
-                <strong>Technologies Used:</strong>
-                <ul>
-                  <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Chart.js or D3.js for data visualization.</li>
-                  <li><strong>Backend:</strong> Python (Flask or Django) for data processing and API integration.</li>
-                  <li><strong>Database:</strong> SQL or NoSQL databases for data storage and management.</li>
-                  <li><strong>Data Science:</strong> Python libraries like Pandas, NumPy, and Matplotlib for data manipulation and visualization.</li>
-                </ul>
-              </p>
-              <p>
-                <strong>Project Impact:</strong> This project enhances decision-making by providing clear, visual data insights, ideal for business intelligence applications. It helps stakeholders track trends, monitor KPIs, and make data-driven decisions, automating complex tasks to allow users to focus on interpreting results.
-              </p>
-            </div>
-          </div>
-        
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="portfolio-info">
-              <h3>Project Information</h3>
-              <ul>
-                <li><strong>Category</strong> Data Science, Dashboard</li>
-              </ul>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <img src="assets\img\portfolio\User Management System 2.png" alt="User Management System Screenshot 2">
         </div>
-        
 
+        <div class="swiper-slide">
+          <img src="assets\img\portfolio\User Management System 3.png" alt="User Management System Screenshot 3">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="assets\img\portfolio\User Management System 4.png" alt="User Management System Screenshot 3">
         </div>
 
       </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
 
-    </section><!-- /Portfolio Details Section -->
+    <div class="row justify-content-between gy-4 mt-4">
+
+      <!-- Project Description -->
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="portfolio-description">
+          <h2>User Management System</h2>
+          <p>
+            The <strong>User Management System</strong> is a full-stack CRUD web application that enables administrators
+            to manage users efficiently. The project features a modern, responsive UI powered by React, Redux, and
+            React-Bootstrap, with a robust backend built using Node.js, Express, and MongoDB.
+          </p>
+
+          <p>
+            <strong>Key Features:</strong>
+            <ul>
+              <li><strong>Create:</strong> Add new users with details like email, first name, last name, and age.</li>
+              <li><strong>Read:</strong> View all users in a responsive, Bootstrap-styled table.</li>
+              <li><strong>Update:</strong> Modify user information seamlessly (UI + backend integrated).</li>
+              <li><strong>Delete:</strong> Remove users instantly (UI + backend integrated).</li>
+              <li><strong>Auto Refresh:</strong> The table updates dynamically after CRUD operations.</li>
+              <li><strong>Responsive Design:</strong> Mobile-first and modern layout using React-Bootstrap.</li>
+              <li><strong>State Management:</strong> Fully integrated Redux for consistent and scalable state handling.</li>
+            </ul>
+          </p>
+
+          <p>
+            <strong>Technologies Used:</strong>
+            <ul>
+              <li><strong>Frontend:</strong> React, Redux, React-Bootstrap, Axios</li>
+              <li><strong>Backend:</strong> Node.js, Express.js, MongoDB, Mongoose</li>
+              <li><strong>Other Tools:</strong> Git, npm</li>
+            </ul>
+          </p>
+
+          <p>
+            <strong>Project Impact:</strong>  
+            This system demonstrates how to integrate a full-stack MERN (MongoDB, Express, React, Node.js) workflow,
+            making it an ideal base for scalable enterprise applications. It provides an intuitive interface for
+            managing data while showcasing strong backend integration.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project Info -->
+      <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category:</strong> Full-Stack Development</li>
+            <li><strong>Live Demo:</strong>
+              <a href="#" target="_blank">Coming Soon</a>
+            </li>
+            <li><strong>GitHub:</strong>
+              <a href="https://github.com/malak-khouja/user-management-system" target="_blank">
+                Repository
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- /Portfolio Details Section -->
+
 
   </main>
 

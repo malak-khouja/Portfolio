@@ -107,15 +107,20 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets\img\portfolio\movie rating prediction 1.png" alt="">
+                        <video 
+                            src="assets\img\portfolio\Chatbot FAQ .ipynb - Colab - Google Chrome 2025-06-12 18-41-09.mp4" 
+                            controls 
+                            style="width: 100%; height: 400px; object-fit: cover;">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+            <div class="swiper-slide">
+              <img src="assets\img\portfolio\ChatbotFAQ1.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets\img\portfolio\movie rating prediction 2.png" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets\img\portfolio\movie rating prediction 3.png" alt="">
+              <img src="assets\img\portfolio\ChatboyFAQ2.png" alt="">
             </div>
 
           </div>
@@ -123,63 +128,61 @@
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
         </div>
+
         <div class="row justify-content-between gy-4 mt-4">
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-        <h2>Movie Recommendation System</h2>
-        <p>
-          The Movie Recommendation System Project aims to build an intelligent platform that predicts user preferences and provides personalized movie recommendations by leveraging various machine learning and deep learning techniques. 
-          This project involves comprehensive data preprocessing, model development, and evaluation to deliver accurate and insightful movie rating predictions and recommendations.
-        </p>
-        <p>
-          <strong>Key Features:</strong>
-          <ul>
-            <li><strong>Data Loading & Preprocessing:</strong> Integrated multiple datasets containing user information, movie details, and user ratings. Performed extensive data cleaning, handled missing values, and encoded categorical variables to prepare the data for modeling.</li>
-            <li><strong>User-Movie Interaction Matrix:</strong> Created a sparse user-item interaction matrix that captures user ratings for movies, enabling efficient collaborative filtering and matrix factorization techniques.</li>
-            <li><strong>Multiple Modeling Approaches:</strong> Implemented and compared various recommendation algorithms including K-Nearest Neighbors (KNN), Matrix Factorization (SVD & SVD++), Linear Regression, and Autoencoder models to predict user ratings.</li>
-            <li><strong>Model Evaluation:</strong> Used RMSE to evaluate model performance, visualized prediction accuracy, and analyzed feature importance to interpret results.</li>
-            <li><strong>Recommendation Generation:</strong> Developed a system to generate personalized top-N movie recommendations for users by predicting ratings on unseen movies.</li>
-          </ul>
-        </p>
-        <p>
-          <strong>Technologies Used:</strong>
-          <ul>
-            <li><strong>Programming Language:</strong> Python for data processing, modeling, and evaluation.</li>
-            <li><strong>Libraries & Frameworks:</strong> Pandas, NumPy, Scikit-learn, Surprise (recommender algorithms), TensorFlow/Keras (autoencoder), Matplotlib and Seaborn for visualization.</li>
-            <li><strong>Data Handling:</strong> SciPy for sparse matrix representation.</li>
-            <li><strong>Model Persistence:</strong> Joblib for saving and loading trained models.</li>
-          </ul>
-        </p>
-        <p>
-          <strong>Project Impact:</strong> This project provides a scalable and versatile recommendation framework that enhances personalized content delivery. It demonstrates the application of diverse machine learning and deep learning models for real-world recommender systems, improving user experience by accurately predicting preferences and driving engagement.
-        </p>
-        </div>
+              <h2>Chatbot for FAQ</h2>
+                <p>
+                    This chatbot project was developed during a CodeAlpha internship. It leverages NLP techniques to match user questions to a curated dataset of frequently asked questions (FAQs) and return the most relevant response. It’s designed to assist users—particularly in the mental health domain—by providing immediate and relevant answers.
+                </p>
+                <p><strong>Key Features:</strong></p>
+      <ul>
+        <li>Preprocessing with NLTK (lowercasing, punctuation & special character removal, tokenization, stopword removal, lemmatization)</li>
+        <li>TF-IDF vectorization for feature extraction</li>
+        <li>Cosine similarity for matching questions</li>
+        <li>Simple command-line chatbot interface</li>
+        <li>Uses a mental health FAQs dataset</li>
+      </ul>
+
+      <p><strong>Technologies Used:</strong></p>
+      <ul>
+        <li><strong>Language:</strong> Python</li>
+        <li><strong>Libraries:</strong> Pandas, NLTK, Scikit-learn</li>
+        <li><strong>Similarity:</strong> TF-IDF + Cosine Similarity</li>
+        <li><strong>Tokenizer:</strong> TensorFlow Keras Tokenizer</li>
+      </ul>
+
+      <p><strong>How It Works:</strong></p>
+      <ul>
+        <li>FAQ data is preprocessed using standard NLP techniques.</li>
+        <li>TF-IDF vectors are computed for all questions.</li>
+        <li>User input is compared to the vectorized questions using cosine similarity.</li>
+        <li>The chatbot returns the answer corresponding to the most similar question.</li>
+      </ul>
+
+      <p><strong>Project Impact:</strong> This project can be adapted for use in customer support, educational FAQs, or mental health resources, offering a simple and effective way to answer repetitive user queries with accuracy.</p>
+    </div>
           </div>
 
-      
-      <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="portfolio-info">
-          <h3>Project information</h3>
-          <ul>
-            <li><strong>Category</strong> Data science/AI</li>
-            <li><strong>Live Demo:</strong> 
-                    <a href="" target="_blank">
-                    Google Colab
-                    </a>
-                </li>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category:</strong> Python / NLP</li>
+                <li><strong>Live Demo:</strong> <a href="https://colab.research.google.com/drive/1AlP9M1sCDNFfLIk9VJ4OS50WrsXA6IeO" target="_blank">Google Colab</a></li>
                 <li><strong>GitHub:</strong> 
-                    <a href="" target="_blank">
-                    -
-                    </a>
+                    <a href="https://github.com/malak-khouja/CodeAlpha_chatbot-for-FAQs" target="_blank">Coming Soon</a>
                 </li>
-          </ul>
-        </div>
+              </ul>
+            </div>
           </div>
 
         </div>
 
       </div>
+
     </section><!-- /Portfolio Details Section -->
 
   </main>
