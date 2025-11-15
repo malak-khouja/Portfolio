@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Passenger Satisfaction Prediction</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="Data Science, React, FastAPI, MongoDB, Machine Learning, Dashboard">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl d-flex justify-content-between align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Malak Khouja</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <a href="index.html" class="nav-link">Home</a>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Passenger Satisfaction Prediction</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <!-- Swiper slider for screenshots -->
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {"delay": 5000},
+              "slidesPerView": "auto",
+              "navigation": {"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev"},
+              "pagination": {"el": ".swiper-pagination", "type": "bullets", "clickable": true}
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/satisfaction-app-cap1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/satisfaction-app-cap2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/satisfaction-app-cap3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/satisfaction-app-cap4.png" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <!-- Project Description -->
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Passenger Satisfaction Prediction App</h2>
+              <p>
+                The <strong>Passenger Satisfaction Prediction App</strong> is a full-stack application that predicts
+                airline passenger satisfaction using machine learning and provides an interactive dashboard to
+                visualize metrics and passenger profiles at risk. The project covers all stages from data preprocessing
+                to deployment with a professional frontend and backend.
+              </p>
+
+              <p><strong>Project Workflow & Features:</strong>
+                <ul>
+                  <li><strong>Data Preprocessing:</strong> Handling missing values, encoding categorical variables, scaling numeric features, and feature selection.</li>
+                  <li><strong>Exploratory Data Analysis (EDA):</strong> Visualization of distributions, correlations, and satisfaction patterns using Plotly and Matplotlib.</li>
+                  <li><strong>Machine Learning:</strong> Training a KNN classifier to predict passenger satisfaction, hyperparameter tuning, and evaluation with accuracy and RMSE.</li>
+                  <li><strong>Backend:</strong> FastAPI application with endpoints for adding passengers, retrieving predictions, and storing data in MongoDB.</li>
+                  <li><strong>Frontend:</strong> React application with interactive forms, dynamic dashboard, and Plotly.js charts to display metrics by age, class, and service type.</li>
+                  <li><strong>Dashboard Analytics:</strong> Visualization of satisfied vs dissatisfied passengers, identification of high-risk profiles, and summary statistics for decision-making.</li>
+                  <!-- <li><strong>Deployment:</strong> Full-stack integration with frontend/backend communication and persistent data storage.</li> -->
+                </ul>
+              </p>
+
+              <p><strong>Technologies Used:</strong>
+                <ul>
+                  <li><strong>Frontend:</strong> React.js, Plotly.js</li>
+                  <li><strong>Backend:</strong> Python, FastAPI, Scikit-learn</li>
+                  <li><strong>Database:</strong> MongoDB</li>
+                  <li><strong>Visualization:</strong> Plotly, Matplotlib, Seaborn</li>
+                  <li><strong>Other Tools:</strong> Git, npm, Postman</li>
+                </ul>
+              </p>
+
+              <p><strong>Impact & Outcome:</strong>
+                <br>This project demonstrates how to integrate machine learning with a full-stack application, providing real-time
+                predictions and actionable insights. Airlines can identify at-risk passengers, improve services, and optimize customer satisfaction.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project Info -->
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Full-Stack / Data Science / Machine Learning</li>
+                <li><strong>GitHub:</strong> 
+                  <a href="https://github.com/malak-khouja/satisfaction-passengers-app" target="_blank">Repository</a>
+                </li>
+                <li><strong>Live Demo:</strong>
+                  <a href="#" target="_blank">Coming Soon</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Malak Khouja</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.facebook.com/malak.khouja/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/malak.khouja/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/malak-khouja-4391762aa/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/malak-khouja"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
