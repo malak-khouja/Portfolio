@@ -1477,8 +1477,9 @@ background-color: var(--accent-color);
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
 }
 
 .portfolio-details .swiper-wrapper {
