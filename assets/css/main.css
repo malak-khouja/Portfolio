@@ -911,6 +911,21 @@ background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 
+/* Resume PDF embed sizing */
+.resume-embed {
+  display: block;
+  width: 100%;
+  /* Comfortable, responsive height: min 480px, ideal 70vh, max 900px */
+  height: clamp(480px, 70vh, 900px);
+}
+
+@media (max-width: 992px) {
+  .resume-embed {
+    /* Slightly shorter on tablets/phones */
+    height: clamp(360px, 60vh, 720px);
+  }
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
